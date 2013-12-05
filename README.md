@@ -2,6 +2,7 @@ Element Slider
 ==============
 
 This is a simple jQuery UI element slider for producing a horizontal content scrolling effect.
+Demo: http://www.jeiellibert.com
 
 Usage
 -----
