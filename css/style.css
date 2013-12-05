@@ -1,0 +1,31 @@
+body{ background:#CCC;}
+#slider-container{ margin:0 auto; width:100%; min-width:320px; height:680px; position:relative;}
+
+.switch-wrapper{position:relative; top:50%;}
+.switch-wrapper, #right-switch, #left-switch{width:52px; height:60px;}
+
+#left-wrapper{position:absolute; left:0%;} #right-wrapper{position:absolute; right:0%;}
+
+#right-switch{background:url("../images/right-arrow.png"); background-repeat:no-repeat; }
+#left-switch{background:url("../images/left-arrow.png"); background-repeat:no-repeat; display:none;}
+#right-switch:hover, #left-switch:hover{cursor:pointer;}
+
+#slider{position:relative; width:75%; margin:auto; height:90%;}
+
+#first, #second, #third, #fourth{
+	position:absolute;
+	width:100%
+	left:4%;
+	overflow:auto;
+	overflow-x:hidden;
+	margin:10 auto;
+}
+
+#paginator{text-align:center; width:100%;}
+#paginator ul{ margin:auto;}
+
+.unchecked{ background:url("../images/unchecked.png");}
+.checked{ background:url("../images/checked.png");}
+.unchecked, .checked{ background-repeat:no-repeat; width:19px; height:19px; float:left; list-style-type:none;}
+
+.slide{max-width:1020px; position:relative;}
